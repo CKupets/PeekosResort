@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{CDD02A45-616D-E15E-B3F9-2A1CAA1EBE05}") = "GearVR_Unity_Project", "Assembly-CSharp.csproj", "{7B8446FD-C1F1-5FEA-1D56-389B72D4A1A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B8446FD-C1F1-5FEA-1D56-389B72D4A1A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B8446FD-C1F1-5FEA-1D56-389B72D4A1A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B8446FD-C1F1-5FEA-1D56-389B72D4A1A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B8446FD-C1F1-5FEA-1D56-389B72D4A1A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

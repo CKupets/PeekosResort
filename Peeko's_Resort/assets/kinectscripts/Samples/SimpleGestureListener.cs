@@ -80,7 +80,7 @@ public class SimpleGestureListener : MonoBehaviour, KinectGestures.GestureListen
 			GestureInfo.GetComponent<GUIText>().text = sGestureText;
 		
 		progressDisplayed = false;
-		Debug.Log ("GestureCompleted");
+		
 		return true;
 	}
 

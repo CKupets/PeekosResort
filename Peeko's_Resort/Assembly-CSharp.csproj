@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{ED99C32A-A1AB-982D-7815-ABB1C8E6F561}</ProjectGuid>
+    <ProjectGuid>{11021A07-1910-7B7B-B386-E7367BF37355}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -46,14 +46,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\AlexSimpleGestureListener.cs" />
+     <Compile Include="Assets\AutoMove.cs" />
      <Compile Include="Assets\DepthColliderDemo\Scripts\DepthImageViewer.cs" />
      <Compile Include="Assets\DepthColliderDemo\Scripts\EggMover.cs" />
      <Compile Include="Assets\DepthColliderDemo\Scripts\EggSpawner.cs" />
      <Compile Include="Assets\GesturesDemo\Scripts\GestureListener.cs" />
      <Compile Include="Assets\GesturesDemo\Scripts\PresentationScript.cs" />
+     <Compile Include="Assets\GlowOnHover.cs" />
+     <Compile Include="Assets\JumpBall.cs" />
+     <Compile Include="Assets\KUSkeleton.cs" />
+     <Compile Include="Assets\KUSocketServer.cs" />
      <Compile Include="Assets\KinectScripts\AvatarController.cs" />
      <Compile Include="Assets\KinectScripts\AvatarControllerClassic.cs" />
+     <Compile Include="Assets\KinectScripts\BlockListener.cs" />
      <Compile Include="Assets\KinectScripts\Cubeman\CubemanController.cs" />
      <Compile Include="Assets\KinectScripts\Filters\BoneOrientationsConstraint.cs" />
      <Compile Include="Assets\KinectScripts\Filters\BoneOrientationsFilter.cs" />
@@ -67,13 +72,58 @@
      <Compile Include="Assets\KinectScripts\KinectManager.cs" />
      <Compile Include="Assets\KinectScripts\KinectWrapper.cs" />
      <Compile Include="Assets\KinectScripts\Samples\FollowUserRotation.cs" />
-     <Compile Include="Assets\KinectScripts\Samples\GestureAlex.cs" />
      <Compile Include="Assets\KinectScripts\Samples\GetJointPositionDemo.cs" />
      <Compile Include="Assets\KinectScripts\Samples\LoadMainLevel.cs" />
      <Compile Include="Assets\KinectScripts\Samples\MouseControl.cs" />
      <Compile Include="Assets\KinectScripts\Samples\SetSceneAvatars.cs" />
      <Compile Include="Assets\KinectScripts\Samples\SimpleGestureListener.cs" />
+     <Compile Include="Assets\MouseControlDebug.cs" />
+     <Compile Include="Assets\MouseMoveCam.cs" />
+     <Compile Include="Assets\Moveforward.cs" />
+     <Compile Include="Assets\NetworkManagerHUD.cs" />
      <Compile Include="Assets\OverlayDemo\Scripts\KinectOverlayer.cs" />
+     <Compile Include="Assets\RaycastHover2.cs" />
+     <Compile Include="Assets\Raycaster.cs" />
+     <Compile Include="Assets\RaycasterHover.cs" />
+     <Compile Include="Assets\Reticle.cs" />
+     <Compile Include="Assets\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Scripts\CreatePrefabs.cs" />
+     <Compile Include="Assets\Scripts\NetworkPlayer.cs" />
+     <Compile Include="Assets\Scripts\Rotator.cs" />
+     <Compile Include="Assets\SocketClient.cs" />
+     <Compile Include="Assets\SocketServer.cs" />
+     <Compile Include="Assets\Teams\Scripts\TeamManager.cs" />
+     <Compile Include="Assets\UpCam.cs" />
+     <Compile Include="Assets\VRAutoMove.cs" />
+     <Compile Include="Assets\VRCubeMan.cs" />
+     <Compile Include="Assets\VRUpCam.cs" />
+     <Compile Include="Assets\Workshop\Scripts\Anim.cs" />
+     <Compile Include="Assets\Workshop\Scripts\AnimAlpha.cs" />
+     <Compile Include="Assets\Workshop\Scripts\AnimShaderAlpha.cs" />
+     <Compile Include="Assets\Workshop\Scripts\InputManager.cs" />
+     <Compile Include="Assets\Workshop\Scripts\RotateObject.cs" />
+     <Compile Include="Assets\Workshop\Scripts\ScreenFaderSphere.cs" />
+     <Compile Include="Assets\Workshop\Scripts\SingletonMonoBehaviour.cs" />
+     <Compile Include="Assets\Workshop\Scripts\StartApp.cs" />
+     <Compile Include="Assets\Workshop\Scripts\TextureCycler.cs" />
+     <Compile Include="Assets\Workshop\Scripts\TextureLoader.cs" />
+     <Compile Include="Assets\Workshop\Scripts\WorkshopUtils.cs" />
+     <Compile Include="Assets\bsSocketServer.cs" />
+     <Compile Include="Assets\salina_scripts\PlayerController.cs" />
+     <None Include="Assets\Workshop\SamsungDisclaimer.txt" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
+     <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+     <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Workshop\Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAddSoft.shader" />
+     <None Include="Assets\Workshop\Shaders\Mobile Vertex Colored No Main Tex.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+     <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+     <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAdd.shader" />
+     <None Include="Assets\Plugins\Workshop\Shaders\Mobile Transparent Vertex Color.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -92,6 +142,13 @@
  <Reference Include="UnityEngine.VR">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
+ <Reference Include="InputSimulator">
+ <HintPath>C:/Users/Alex Mueller/Desktop/CMSC_234/KupetsCopy/AlexVersion/Assets/InputSimulator.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{F4D097B9-09DB-DF4E-0675-D5E2DD1C88EB}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

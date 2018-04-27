@@ -1,0 +1,24 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\salina_scripts\PlayerController.cs">
+    <Files>
+      <File FileName="Assets\MouseMoveCam.cs" Line="12" Column="49" />
+      <File FileName="Assets\Reticle.cs" Line="1" Column="1" />
+      <File FileName="Assets\SocketClient.cs" Line="1" Column="1" />
+      <File FileName="Assets\VRAutoMove.cs" Line="46" Column="29" />
+      <File FileName="Assets\VRUpCam.cs" Line="1" Column="1" />
+      <File FileName="Assets\SocketServer.cs" Line="1" Column="1" />
+      <File FileName="Assets\KUSocketServer.cs" Line="1" Column="1" />
+      <File FileName="Assets\KinectScripts\KinectGestures.cs" Line="1" Column="1" />
+      <File FileName="Assets\salina_scripts\PlayerController.cs" Line="89" Column="55" />
+      <File FileName="Assets\VRCubeMan.cs" Line="1" Column="1" />
+      <File FileName="Assets\RaycastHover2.cs" Line="1" Column="1" />
+      <File FileName="Assets\Raycaster.cs" Line="1" Column="1" />
+      <File FileName="Assets\GlowOnHover.cs" Line="79" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

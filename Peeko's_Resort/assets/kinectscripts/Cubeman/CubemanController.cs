@@ -34,6 +34,7 @@ public class CubemanController : MonoBehaviour
 	
 	private GameObject[] bones; 
 	private LineRenderer[] lines;
+	private GameObject[] spheres;
 	private int[] parIdxs;
 	
 	private Vector3 initialPosition;
@@ -64,12 +65,13 @@ public class CubemanController : MonoBehaviour
 		// array holding the skeleton lines
 		lines = new LineRenderer[bones.Length];
 		
-		if(SkeletonLine)
+		if (SkeletonLine)
 		{
 			for(int i = 0; i < lines.Length; i++)
 			{
 				lines[i] = Instantiate(SkeletonLine) as LineRenderer;
 				lines[i].transform.parent = transform;
+//				spheres[i] = Instat
 			}
 		}
 		
@@ -81,6 +83,7 @@ public class CubemanController : MonoBehaviour
 	// Update is called once per frame
 	void Update () 
 	{
+		// this is where tracking happens
 		KinectManager manager = KinectManager.Instance;
 
 		// get 1st player
@@ -163,6 +166,7 @@ public class CubemanController : MonoBehaviour
 			}	
 		}
 
+		// rendering here
 		if(SkeletonLine)
 		{
 			for(int i = 0; i < bones.Length; i++) 

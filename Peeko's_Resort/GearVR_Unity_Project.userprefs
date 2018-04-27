@@ -1,0 +1,19 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PlayerController.cs">
+    <Files>
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="29" Column="21" />
+      <File FileName="Assets/Workshop/Scripts/InputManager.cs" Line="22" Column="28" />
+      <File FileName="Assets/Workshop/Scripts/Raycaster.cs" Line="20" Column="51" />
+      <File FileName="Assets/Scripts/NetworkPlayer.cs" Line="41" Column="3" />
+      <File FileName="Assets/Scripts/MeshSwitcher.cs" Line="39" Column="2" />
+      <File FileName="Assets/Scripts/TriggerMeshSwitch.cs" Line="9" Column="37" />
+      <File FileName="Assets/NetworkManagerHUD.cs" Line="31" Column="4" />
+      <File FileName="Assets/Scripts/CameraController.cs" Line="27" Column="37" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
